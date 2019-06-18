@@ -27,6 +27,11 @@
             <username>${env.GH_USER}</username>
             <password>${env.GH_TOKEN}</password>
         </server>
+        <server>
+            <id>bintray</id>
+            <username>${env.BINTRAY_USER}</username>
+            <password>${env.BINTRAY_KEY}</password>
+        </server>
     </servers>
 
     <!--
