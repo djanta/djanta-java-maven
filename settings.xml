@@ -48,4 +48,10 @@
     </profiles>
     -->
 
+    <activeProfiles>
+        <activeProfile>sonatype</activeProfile>
+        <activeProfile>bintray</activeProfile>
+        <!-- <activeProfile>github.com</activeProfile> -->
+    </activeProfiles>
+
 </settings>
