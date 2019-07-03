@@ -48,6 +48,32 @@
     </profiles>
     -->
 
+    <profiles>
+        <profile>
+            <id>bintray</id>
+            <repositories>
+                <repository>
+                    <name>bintray</name>
+                    <id>bintray-djantaio-io.djanta</id>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                    <url>https://dl.bintray.com/djantaio/io.djanta</url>
+                </repository>
+            </repositories>
+            <pluginRepositories>
+                <pluginRepository>
+                    <name>bintray-plugins</name>
+                    <id>bintray-djantaio-io.djanta</id>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                    <url>https://dl.bintray.com/djantaio/io.djanta</url>
+                </pluginRepository>
+            </pluginRepositories>
+        </profile>
+    </profiles>
+
     <activeProfiles>
         <activeProfile>sonatype</activeProfile>
         <activeProfile>bintray</activeProfile>
