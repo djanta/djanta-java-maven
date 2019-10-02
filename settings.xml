@@ -79,8 +79,8 @@
 
     <activeProfiles>
         <activeProfile>sonatype</activeProfile>
-        <activeProfile>bintray</activeProfile>
-        <!-- <activeProfile>github</activeProfile> -->
+        <!--<activeProfile>bintray</activeProfile>-->
+        <!--<activeProfile>github</activeProfile>-->
     </activeProfiles>
 
 </settings>
