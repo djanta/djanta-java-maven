@@ -75,12 +75,20 @@
                 </pluginRepository>
             </pluginRepositories>
         </profile>
+        <profile>
+            <id>sonatype</id>
+            <properties>
+                <gpg.executable>gpg2</gpg.executable>
+                <gpg.passphrase>${env.GPG_PASSPHRASE}</gpg.passphrase>
+                <gpg.keyname>${env.GPG_KEYNAME}</gpg.keyname>
+                <gpg.passphraseServerId>${gpg.keyname}</gpg.passphraseServerId>
+                <gpg.defaultKeyring>false</gpg.defaultKeyring>
+            </properties>
+        </profile>
     </profiles>
 
     <activeProfiles>
         <activeProfile>sonatype</activeProfile>
-        <!--<activeProfile>bintray</activeProfile>-->
-        <!--<activeProfile>github</activeProfile>-->
     </activeProfiles>
 
 </settings>
