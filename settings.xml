@@ -83,6 +83,10 @@
                 <gpg.keyname>${env.GPG_KEYNAME}</gpg.keyname>
                 <gpg.passphraseServerId>${gpg.keyname}</gpg.passphraseServerId>
                 <gpg.defaultKeyring>false</gpg.defaultKeyring>
+
+                <!-- Setting for using an alternative (pub/piv) pair keys -->
+                <gpg.publicKeyring>${env.GPG_PUBLIC_KEY}</gpg.publicKeyring>
+                <gpg.secretKeyring>${env.GPG_PRIVATE_KEY}</gpg.secretKeyring>
             </properties>
         </profile>
     </profiles>
